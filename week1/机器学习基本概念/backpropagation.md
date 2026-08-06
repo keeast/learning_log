@@ -13,7 +13,7 @@
   因为sigmoid函数及其微分如下：  
   ![alt text](image2/image-10.png)  
   所以可算得：![alt text](image2/image-11.png)  
-  由链式法则得：![alt text](image2/image2/image-13.png)  
+  由链式法则得：![alt text](image2/image-13.png)  
   在正向传播时z已经确定，所以对z的微分是一个常数  
   ![alt text](image2/image-14.png)  
   为什么叫反向传播：知道后一个可递归得前一个的微分
