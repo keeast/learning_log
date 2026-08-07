@@ -10,18 +10,18 @@
 ## 卷积过程
 - 每一个filter对图片扫一遍就叫卷积，会得到特征图，用来识别某一种特征    
     卷积一次之后相当于形成一张新图片，新图片的通道数就是filter的数目
-![alt text](image.png)  
+![alt text](images/image.png)  
 - 当卷积层数越深时，看到的图片范围越大，所以不用担心卷积核太小不能识别出特征  
 ## 池化（pooling）
 - 作用：将图片变小，channel不变，实际操作中将卷积层和池化层交替使用
 - pooling没有参数，不需要学习
 - 最大池化  
 池化前：
-![alt text](image-1.png)  
+![alt text](images/image-1.png)  
 池化后：
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 ## 全过程  
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 Flatten：将多维矩阵拉直变成一个向量
 ## 应用
 - 专为图像识别设计，例如围棋AlphaGo

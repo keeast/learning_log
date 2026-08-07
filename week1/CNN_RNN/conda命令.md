@@ -8,7 +8,7 @@
     conda deactivate
     # 列出所有环境
     conda env list
-    # 删除所有环境
+    # 删除myenv环境
     conda remove --name myenv --all
     # 克隆环境
     conda create --clone myenv --name newenv

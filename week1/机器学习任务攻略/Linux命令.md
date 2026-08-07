@@ -32,7 +32,7 @@
     cp item1 item2
   ```
 - 通配符：
-![alt text](image.png)  
+![alt text](images/image-31.png)  
 - 创建目录：`mkdir dirl`
 - 移动和重命名文件
   ```bash
@@ -63,4 +63,10 @@
     mkdir --help
 - `man`:显示程序手册页
 - `apropos`：搜索关键字
-- `whatis`：  
+- `whatis`：快速查询一个命令、系统调用或库函数的简要功能描述    
+  ```bash
+    whatis ls  
+    ls (1)              - list directory contents[reference:6]
+
+
+来源：https://www.kancloud.cn/thinkphp/linux-command-line/39435
