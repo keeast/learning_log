@@ -29,3 +29,9 @@
     conda config --show
     # 启动jupyter
     jupyter notebook
+
+    # 激活新环境并安装 ipykernel
+    conda activate new_env
+    conda install ipykernel
+    # 向 Jupyter 注册该内核
+    python -m ipykernel install --user --name=new_env --display-name="Python (new_env)"
